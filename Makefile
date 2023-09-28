@@ -1,8 +1,11 @@
 .ONESHELL:
 
+ALPINE_VERSION:=3.18
+NODE_VERSION:=18.17.1
+
 CONTAINER_DEFINITION_FILE=docker/Dockerfile
-CONTAINER_BUILD_ARGS:="--build-arg alpine_version=3.18"
-CONTAINER_IMAGE_NAME=kubectl
+CONTAINER_BUILD_ARGS:="--build-arg alpine_version=${ALPINE_VERSION} --build-arg node_version=${NODE_VERSION}"
+CONTAINER_IMAGE_NAME=uglify
 CONTAINER_IMAGE_TAG:=latest
 
 help:
