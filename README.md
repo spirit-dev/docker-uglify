@@ -5,15 +5,16 @@
 
 <!--TOC-->
 
-- [Documentation](#documentation)
-  - [Os](#os)
-- [TEST](#test)
-  - [Prerequisite](#prerequisite)
-  - [Linux](#linux)
-  - [MacOS](#macos)
-  - [Others](#others)
-  - [Usage](#usage)
-- [Resource](#resource)
+- [uglify](#uglify)
+  - [Documentation](#documentation)
+    - [Os](#os)
+  - [TEST](#test)
+    - [Prerequisite](#prerequisite)
+    - [Linux](#linux)
+    - [MacOS](#macos)
+    - [Others](#others)
+    - [Usage](#usage)
+  - [Resource](#resource)
 
 <!--TOC-->
 
