@@ -1,10 +1,19 @@
-# CHANGEME
+# uglify
 
-{% if repo_type == 'gitlab' -%}
-{% include '.gitlab/badges.md' %}
-{%- endif %}
+[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-uglify-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-uglify) <!-- markdownlint-disable MD041 -->
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-uglify-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-uglify)
 
 <!--TOC-->
+
+- [Documentation](#documentation)
+  - [Os](#os)
+- [TEST](#test)
+  - [Prerequisite](#prerequisite)
+  - [Linux](#linux)
+  - [MacOS](#macos)
+  - [Others](#others)
+  - [Usage](#usage)
+- [Resource](#resource)
 
 <!--TOC-->
 
@@ -31,11 +40,7 @@ This repository is dedicated to oficial images used in our differents projects /
 
 ### Os
 
-{% if repo_type == 'gitlab' -%}
-- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/CHANGEME)
-{%- else -%}
-- [**Alpine**](https://github.com/spirit-dev/CHANGEME_GH)
-{%- endif %}
+- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/uglify)
 
 ## TEST
 
