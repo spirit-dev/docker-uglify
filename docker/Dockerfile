@@ -10,4 +10,5 @@ LABEL alpine_version="${alpine_version}" \
     from="gitlab-registry-internal.spirit-dev.net/infrastructure/docker/alpine" \
     maintainer="bordat.jean@gmail.com"
 
-RUN apk add --no-cache npm && npm install uglify-js uglifycss -g
+RUN apk add --no-cache npm=9.6.6-r0 && \
+    npm install uglify-js uglifycss -g
