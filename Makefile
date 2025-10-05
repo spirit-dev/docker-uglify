@@ -1,6 +1,7 @@
 .ONESHELL:
 
-ALPINE_VERSION:=3.18
+# renovate: datasource=docker depName=gitlab-registry-internal.spirit-dev.net/infrastructure/docker/alpine
+ALPINE_VERSION:=3.21.2
 
 CONTAINER_DEFINITION_FILE=docker/Dockerfile
 CONTAINER_BUILD_ARGS:="--build-arg alpine_version=${ALPINE_VERSION}"
