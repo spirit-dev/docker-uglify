@@ -1,7 +1,6 @@
 # uglify
 
-[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-uglify-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/docker-uglify) <!-- markdownlint-disable MD041 -->
-[![GitHub Mirror](https://img.shields.io/badge/github_mirror-uglify-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/docker-uglify)
+
 
 <!--TOC-->
 
@@ -40,7 +39,7 @@ This repository is dedicated to oficial images used in our differents projects /
 
 ### Os
 
-- [**Alpine**](https://gitlab-internal.spirit-dev.net/infrastructure/docker/uglify)
+- [**Alpine**](https://github.com/spirit-dev/docker-uglify)
 
 ## TEST
 
@@ -106,4 +105,4 @@ container-structure-test test --image tbd/{IMAGES}:{TAG} --config {TEST_FILE}.ya
 
 - <https://linux.die.net/man/1/make>
 - <https://github.com/GoogleContainerTools/container-structure-test>
-- <https://docs.docker.com/engine/reference/builder/>
+- <https://docs.docker.com/engine/reference/builder/
